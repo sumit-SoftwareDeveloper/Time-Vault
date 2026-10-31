@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap');
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#061b13;color:#f4efe2;font-family:'DM Sans',sans-serif}.app{max-width:1600px;margin:auto;overflow:hidden}a{color:inherit;text-decoration:none}button,input{font:inherit}button{cursor:pointer;color:inherit}.nav{height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 7.3%;background:#031a11;border-bottom:1px solid #bda57930;position:relative;z-index:4}.logo{display:flex;align-items:center;gap:10px}.logo>strong{font-size:35px;color:#c9ad7a}.logo span{font-size:16px;letter-spacing:5px}.logo small{display:block;text-align:center;font-size:7px;letter-spacing:2px;color:#c9ad7a}.nav nav{display:flex;gap:32px;font-size:11px}.nav nav a:first-child{border-bottom:1px solid #c9ad7a;padding-bottom:8px}.icons{display:flex;gap:20px;align-items:center;font-size:24px}.icons button{border:0;background:none;font-size:23px;position:relative}.icons sup{font-size:9px;background:#c9ad7a;color:#061b13;border-radius:50%;padding:2px 5px}
+.hero{height:516px;display:grid;grid-template-columns:49% 51%;position:relative;overflow:hidden;background:radial-gradient(ellipse at 70% 34%,#155039,#0a2c1e 36%,#031b11 78%);border-bottom:1px solid #c9ad7a35}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#00190f88,transparent 70%),repeating-linear-gradient(90deg,transparent 0 15%,#fff05 15.3% 15.8%)}.copy{position:relative;z-index:2;padding:82px 0 0 15%}.eyebrow{font-size:10px;letter-spacing:3px;color:#d6c6a1;font-weight:600;margin:0 0 16px}.eyebrow span{padding:0 8px}.copy h1{font:500 76px/.83 'Cormorant Garamond',serif;letter-spacing:-2px;color:#e8d4a7;margin:0 0 20px}.desc{font-size:13px;line-height:1.55;margin:0 0 20px}.cta{height:38px;border:1px solid #c9ad7a;border-radius:22px;display:inline-flex;align-items:center;gap:18px;padding:0 17px;font-size:9px}.cta:hover{background:#c9ad7a;color:#071b12}.cta b{font-size:17px}.brands{display:flex;gap:8px;align-items:center;margin-top:35px}.brands>button{width:72px;height:80px;border:1px solid #d0c5a244;border-radius:5px;background:#061b12c9;display:flex;flex-direction:column;align-items:center;justify-content:space-around;padding:4px}.brands>button:hover{border-color:#d4bc8a}.brands .watch{transform:scale(.32);height:40px;width:52px;margin:-4px}.brands button b{font-size:8px}.brands>a{font-size:22px;margin-left:8px}.hero-stage{position:relative;display:flex;align-items:center;justify-content:center;z-index:1}.stone{position:absolute;bottom:0;left:0;width:100%;height:145px;background:linear-gradient(160deg,#59604b,#172e22 43%,#07190f);clip-path:polygon(10% 0,88% 0,100% 55%,91% 100%,0 100%)}.hero-watch{z-index:2;filter:drop-shadow(12px 20px 13px #0009)}.hero-caption{position:absolute;right:10%;bottom:12px;z-index:3;text-align:right;font-size:8px;letter-spacing:2px;color:#cbb88f}.hero-caption b{font:500 18px 'Cormorant Garamond',serif;letter-spacing:0;color:#f4efe2}.live{position:absolute;z-index:3;border:1px solid #c9ad7a75;background:#061b14e8;display:flex;gap:10px;align-items:center;padding:11px 13px;border-radius:5px}.top-live{top:21px;right:7.3%}.live>span{font-size:25px;color:#e3d3ac}.live small,.live em{display:block;font-size:8px;font-style:normal}.live small{letter-spacing:1px;color:#d7c69f}.live b{display:block;font-size:12px;font-weight:500;margin:4px 0}.live em{font-size:7px}.live-pill{position:absolute;right:7.2%;bottom:75px;z-index:3;display:flex;align-items:center;gap:13px;border:1px solid #c9ad7a99;border-radius:40px;padding:13px 19px;background:#061b14ed}.live-pill>span{font-size:25px;color:#e3d3ac}.live-pill b{font-size:9px;letter-spacing:1px;display:block;margin-bottom:5px}.live-pill small{font-size:9px;line-height:1.5}.trust{min-height:72px;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;padding:0 7.3%;background:#061b13}.trust>div{display:flex;align-items:center;gap:13px;padding:0 20px;border-right:1px solid #d4c29b2b}.trust>div:first-child{padding-left:0}.trust>div:last-child{border:0}.trust i{font-size:24px;color:#d6c194;font-style:normal}.trust p{display:flex;flex-direction:column;gap:5px;margin:0}.trust b{font-size:10px;font-weight:500}.trust small{font-size:8px;color:#c2c0b1}
+.collection{background:#f3f0e7;color:#13281e;padding:80px 7.3%}.heading{text-align:center}.heading .eyebrow{color:#8b7044}.heading h2,.newsletter h2{font:500 46px 'Cormorant Garamond',serif;margin:0 0 7px}.heading>p:last-child{font-size:12px;color:#77796e}.tools{display:flex;justify-content:space-between;align-items:center;gap:15px;margin:35px 0 25px}.tools>div{display:flex;gap:7px;flex-wrap:wrap}.tools button{border:1px solid #d5d2c6;background:transparent;color:#526056;padding:9px 12px;border-radius:20px;font-size:9px;letter-spacing:1px}.tools button.selected,.tools button:hover{background:#0c3022;color:#e5d5b1}.tools input,.newsletter input{border:1px solid #d5d2c6;background:#fffdf7;padding:12px 15px;min-width:190px;font-size:11px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}.card{position:relative;background:#e9e6dc;border:1px solid #e0ddd2;padding:15px;min-width:0}.product-visual{width:100%;height:220px;border:0;background:radial-gradient(ellipse,#d7d4c7,#ebe8df 68%);display:grid;place-items:center;overflow:hidden}.product-visual .watch{transform:scale(.75)}.heart{position:absolute;right:22px;top:20px;z-index:2;border:0;background:#fff9;color:#193b2b;font-size:22px;border-radius:50%}.card>small{display:block;color:#8b7044;letter-spacing:1.7px;font-size:9px;margin-top:14px}.card h3{font:600 22px 'Cormorant Garamond',serif;margin:5px 0 14px}.buy{display:flex;align-items:center;justify-content:space-between}.buy>b{font-size:13px}.buy button,.goldbtn{background:#0c3022;border:0;color:#e8d8b5;padding:10px 12px;font-size:9px;letter-spacing:1px}.live-label{font-size:8px;letter-spacing:.7px;color:#55715e;margin-top:13px}.manifesto{text-align:center;padding:80px 20px;background:linear-gradient(110deg,#0a2a1d,#061b13 55%,#0c3424);border-block:1px solid #c9ad7a24}.manifesto h2{font:500 52px/1.02 'Cormorant Garamond',serif;color:#ead8b0;margin:0 0 18px}.manifesto h2 i{font-weight:400}.manifesto>p:last-child{font-size:12px;color:#c8c7b9}.newsletter{padding:52px 7.3%;display:flex;align-items:center;justify-content:space-between;gap:30px;background:#e9e5d9;color:#173125}.newsletter .eyebrow{color:#947747}.newsletter h2{font-size:38px;margin-bottom:7px}.newsletter p:not(.eyebrow){font-size:11px;color:#656b60}.newsletter form{display:flex;width:45%;max-width:430px}.newsletter input{min-width:0;flex:1}.newsletter form button{border:0;background:#0a2c1e;color:#e4d2ab;padding:0 15px;font-size:9px}footer{min-height:70px;padding:20px 7.3%;display:flex;align-items:center;justify-content:space-between;color:#a9aa9b;font-size:8px;letter-spacing:1px}footer b{font-size:14px;color:#d8c39a}
+.watch{--size:116px;width:150px;height:245px;position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;flex-shrink:0}.hero-watch{--size:260px;width:310px;height:430px}.strap{position:absolute;left:50%;transform:translateX(-50%);width:54px;height:72px;background:repeating-linear-gradient(90deg,#777a70 0 4px,#c2b99e 4px 7px,#4e554d 7px 10px);border:1px solid #9e9a86}.strap.top{top:0;border-radius:9px 9px 2px 2px}.strap.bottom{bottom:0;border-radius:2px 2px 9px 9px}.watch.black .strap{background:repeating-linear-gradient(90deg,#242a26 0 4px,#6d7169 4px 7px,#303730 7px 10px)}.watch.gold .strap{background:repeating-linear-gradient(90deg,#6e4d21 0 4px,#d8b66d 4px 7px,#6e4d21 7px 10px)}.case{position:relative;z-index:1;width:132px;height:132px;border-radius:50%;padding:7px;background:linear-gradient(135deg,#e0d3ae,#575d55 17%,#d8c99d 30%,#444b43 49%,#e4d4aa 70%,#333a32);box-shadow:0 5px 12px #0008,inset 0 0 0 2px #b7a77d}.hero-watch .case{width:282px;height:282px;padding:13px}.watch.gold .case{background:linear-gradient(135deg,#d7c49a,#6b4c27,#e1d0a2,#30271c)}.dial{position:relative;width:100%;height:100%;border-radius:50%;overflow:hidden;background:radial-gradient(circle at 35% 28%,#21654d,#0d513d 58%,#03160f);border:2px solid #c7b37b;box-shadow:inset 0 0 0 3px #081d14,inset 0 0 16px #0009;color:#d9c38a}.dial.black{background:radial-gradient(circle,#343a35,#101613 75%)}.dial.blue{background:radial-gradient(circle,#32617b,#102b42 75%)}.dial.gold{background:radial-gradient(circle,#9a7538,#493113 75%)}.tick{position:absolute;left:50%;top:5%;height:4px;width:1px;transform-origin:50% calc(var(--size)*.45);background:#e0d3a4}.tick.major{height:7px;width:2px}.hero-watch .tick{height:7px;width:2px}.hero-watch .tick.major{height:13px;width:3px}.num{position:absolute;left:50%;top:50%;font-size:7px;color:#dfd0a2;transform-origin:center}.hero-watch .num{font-size:13px}.dialbrand{position:absolute;top:27%;width:100%;text-align:center;font-size:7px;letter-spacing:1px}.hero-watch .dialbrand{font-size:14px;letter-spacing:2px}.subbrand{position:absolute;top:33%;width:100%;text-align:center;font-size:4px;letter-spacing:.5px}.hero-watch .subbrand{font-size:7px}.hand{position:absolute;left:50%;top:50%;transform-origin:50% 100%;border-radius:5px 5px 1px 1px;z-index:3}.hour{height:25%;width:4px;background:linear-gradient(90deg,#b9a36c,#f4e4b6,#897143);margin-top:-25%}.minute{height:34%;width:3px;background:linear-gradient(90deg,#c6b27c,#fff0c7,#92774a);margin-top:-34%}.second{height:39%;width:1px;background:#d8a75d;margin-top:-39%;z-index:4}.hero-watch .hour{width:7px}.hero-watch .minute{width:5px}.hero-watch .second{width:2px}.pin{position:absolute;left:50%;top:50%;width:7px;height:7px;transform:translate(-50%,-50%);border-radius:50%;background:#e3d2a0;border:1px solid #65542e;z-index:5}.hero-watch .pin{width:12px;height:12px}.crown{position:absolute;right:-8px;top:45%;height:18px;width:11px;border-radius:2px;background:linear-gradient(90deg,#7d6335,#e0c783,#9b7b40);border:1px solid #b69a5c}.hero-watch .crown{right:-11px;width:17px;height:27px}.digital{width:100%;height:100%;border-radius:25%;background:linear-gradient(145deg,#424942,#101510 55%,#60675d);border:5px solid #777d70;box-shadow:inset 0 0 0 3px #101510;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#c8d0ae;font-family:monospace;gap:7px}.digital b{font-size:12px;white-space:nowrap}.digital small{font-size:6px;letter-spacing:1px}.digital.vintage{background:#4a5143;color:#d4d8a6;border-color:#b5aa7d}
+.overlay{position:fixed;inset:0;background:#000b;z-index:10;display:grid;place-items:center;padding:20px}.modal{position:relative;max-width:720px;width:100%;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:20px;background:#0b291d;border:1px solid #c9ad7a55;padding:35px}.modal .hero-watch{transform:scale(.72);height:320px}.modal h2{font:500 36px 'Cormorant Garamond',serif}.modal h3{color:#e0c58f}.modal p{font-size:12px;line-height:1.7;color:#c3c4b7}.close{position:absolute;right:12px;top:8px;border:0;background:none;font-size:27px}.goldbtn{width:100%;padding:14px;background:#c8ac78;color:#102318}.toast{position:fixed;z-index:20;bottom:25px;left:50%;transform:translateX(-50%);padding:13px 20px;background:#e7d5ae;color:#11271b;font-size:12px;max-width:90vw;text-align:center}
+@media(max-width:900px){.nav{padding:0 4%}.nav nav{gap:14px}.copy{padding-left:8%}.copy h1{font-size:62px}.trust{padding:0 4%}.trust>div{padding:0 10px}.collection{padding:60px 4%}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:640px){.nav{height:60px;padding:0 15px}.logo span{font-size:12px;letter-spacing:2px}.logo>strong{font-size:28px}.nav nav{display:none}.icons{gap:13px}.hero{height:auto;min-height:770px;display:flex;flex-direction:column}.copy{padding:65px 22px 0}.copy h1{font-size:61px}.brands{margin-top:25px}.brands>button{width:60px;height:73px}.hero-stage{height:330px;margin-top:10px}.hero-watch{transform:scale(.73)}.stone{height:95px;left:4%;width:92%}.top-live{top:12px;right:8px;transform:scale(.82);transform-origin:top right}.live-pill{right:10px;bottom:20px;padding:9px 12px}.trust{grid-template-columns:repeat(2,1fr);padding:14px 16px;gap:14px}.trust>div{border:0;padding:0}.trust b{font-size:9px}.trust small{font-size:7px}.collection{padding:50px 14px}.heading h2{font-size:36px}.tools{align-items:stretch;flex-direction:column;margin:25px 0 20px}.tools input{width:100%}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.card{padding:9px}.product-visual{height:170px}.product-visual .watch{transform:scale(.6)}.card h3{font-size:18px;min-height:40px}.buy{align-items:flex-start;flex-direction:column;gap:8px}.buy button{width:100%}.manifesto{padding:60px 15px}.manifesto h2{font-size:39px}.newsletter{padding:40px 18px;flex-direction:column;align-items:stretch}.newsletter h2{font-size:34px}.newsletter form{width:100%;min-height:44px}.newsletter form button{padding:0 8px;font-size:8px}footer{padding:20px;flex-wrap:wrap}footer span{display:none}.modal{grid-template-columns:1fr;padding:25px 18px;max-height:90vh;overflow:auto}.modal .hero-watch{transform:scale(.48);height:220px;margin:auto}.modal h2{font-size:30px}}
+
+/* =========================================
+   TIMEVAULT — PRIVATE VAULT SECTION
+   Scoped styles: existing sections untouched
+========================================= */
+
+.private-vault-section {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  min-height: 570px;
+  overflow: hidden;
+  background: #f7f4e9;
+  border-top: 1px solid rgba(197, 166, 106, 0.22);
+  border-bottom: 1px solid rgba(197, 166, 106, 0.22);
+}
+
+.private-vault-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 76px clamp(35px, 7.2vw, 120px);
+  background:
+    radial-gradient(
+      ellipse at 12% 12%,
+      rgba(255, 255, 255, 0.72),
+      transparent 58%
+    ),
+    #f7f4e9;
+}
+
+.private-vault-eyebrow {
+  margin: 0 0 29px;
+  color: #a8874e;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  line-height: 1.7;
+}
+
+.private-vault-copy h2 {
+  margin: 0;
+  color: #0d3024;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 4.1vw, 66px);
+  font-weight: 400;
+  letter-spacing: -1.9px;
+  line-height: 1.02;
+}
+
+.private-vault-description {
+  max-width: 530px;
+  margin: 22px 0 27px;
+  color: #17382b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(15px, 1.45vw, 21px);
+  line-height: 1.48;
+}
+
+.private-vault-access {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  max-width: 100%;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  border: 1px solid rgba(183, 145, 76, 0.2);
+  border-radius: 30px;
+  background: #e5d2a9;
+  color: #42341e;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+
+.private-vault-access span {
+  color: #8a6b32;
+  font-size: 17px;
+}
+
+.private-vault-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  min-height: 53px;
+  padding: 0 25px;
+  border: 2px solid #bd9a58;
+  border-radius: 2px;
+  background: #0d3024;
+  color: #f8f3e6;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.65px;
+  transition:
+    background 220ms ease,
+    color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
+  cursor: pointer;
+}
+
+.private-vault-button span {
+  font-size: 19px;
+  transition: transform 220ms ease;
+}
+
+.private-vault-button:hover {
+  background: #194735;
+  box-shadow: 0 7px 20px rgba(13, 48, 36, 0.12);
+  transform: translateY(-2px);
+}
+
+.private-vault-button:hover span {
+  transform: translateX(4px);
+}
+
+.private-vault-note {
+  margin: 19px 0 0;
+  color: #304438;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.private-vault-image {
+  position: relative;
+  min-width: 0;
+  min-height: 100%;
+  overflow: hidden;
+  background: #e9e1d1;
+}
+
+.private-vault-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 570px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 800ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.private-vault-image:hover img {
+  transform: scale(1.025);
+}
+
+.private-vault-bottom-mark {
+  position: absolute;
+  right: 23px;
+  bottom: 9px;
+  z-index: 2;
+  color: #b8c8b8;
+  font-size: 39px;
+  line-height: 1;
+  pointer-events: none;
+}
+
+@media (min-width: 1500px) {
+  .private-vault-section {
+    min-height: 650px;
+  }
+
+  .private-vault-image img {
+    min-height: 650px;
+  }
+}
+
+@media (max-width: 900px) {
+  .private-vault-section {
+    grid-template-columns: 1fr 0.9fr;
+    min-height: 490px;
+  }
+
+  .private-vault-copy {
+    padding: 48px 30px;
+  }
+
+  .private-vault-eyebrow {
+    margin-bottom: 22px;
+    font-size: 10px;
+    letter-spacing: 1.8px;
+  }
+
+  .private-vault-copy h2 {
+    font-size: clamp(37px, 5vw, 48px);
+  }
+
+  .private-vault-description {
+    font-size: 16px;
+  }
+
+  .private-vault-image img {
+    min-height: 490px;
+  }
+
+  .private-vault-access {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 600px) {
+  .private-vault-section {
+    grid-template-columns: 1fr;
+  }
+
+  .private-vault-copy {
+    order: 1;
+    padding: 53px 25px 43px;
+  }
+
+  .private-vault-eyebrow {
+    margin-bottom: 23px;
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .private-vault-copy h2 {
+    font-size: clamp(43px, 11vw, 56px);
+    letter-spacing: -1.5px;
+  }
+
+  .private-vault-description {
+    max-width: 450px;
+    margin: 19px 0 23px;
+    font-size: 17px;
+  }
+
+  .private-vault-access {
+    margin-bottom: 23px;
+    padding: 9px 12px;
+    font-size: 9px;
+    letter-spacing: 0.3px;
+  }
+
+  .private-vault-button {
+    width: 100%;
+    min-height: 51px;
+    padding: 0 14px;
+    font-size: 11px;
+  }
+
+  .private-vault-note {
+    font-size: 14px;
+  }
+
+  .private-vault-image {
+    order: 2;
+    min-height: 0;
+    aspect-ratio: 1 / 0.88;
+  }
+
+  .private-vault-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    object-fit: cover;
+  }
+
+  .private-vault-bottom-mark {
+    right: 15px;
+    bottom: 10px;
+    font-size: 30px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .private-vault-image img,
+  .private-vault-button,
+  .private-vault-button span {
+    transition: none;
+  }
+}
